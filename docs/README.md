@@ -40,3 +40,11 @@ Created Lab User 01 as a standard member identity and assigned the account to SG
 
 Verified that Lab User 01 appears as an assigned member of SG-IAM-Lab-Users in Microsoft Entra ID after provisioning.
 
+
+
+\### Baseline Security
+
+
+
+Verified that Microsoft Entra Security Defaults are enabled for the tenant, providing baseline identity protections while the homelab uses the Microsoft Entra ID Free tier.
+
