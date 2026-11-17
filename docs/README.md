@@ -64,3 +64,11 @@ Completed an interactive sign-in as Lab User 01, registered Microsoft Authentica
 
 Added the Microsoft Entra SAML Toolkit enterprise application and directly assigned Lab User 01 with application access. Group-based application assignment was unavailable under the Microsoft Entra ID Free tier, so direct user assignment was used. Verified the assignment from the user perspective by confirming the application appeared in the Lab User 01 My Apps portal.
 
+
+
+\### SAML Single Sign-On
+
+
+
+Configured and validated SAML 2.0 single sign-on between Microsoft Entra ID and the Microsoft Entra SAML Toolkit. Configured the Identity Provider and Service Provider relationship using the Entity ID, SP-initiated sign-on URL, Assertion Consumer Service (ACS) URL, Microsoft Entra login and logout endpoints, and the SAML signing certificate. Created a matching service-provider test identity and successfully validated SP-initiated SSO as Lab User 01 without re-entering the application's local credentials.
+
