@@ -56,3 +56,11 @@ Verified that Microsoft Entra Security Defaults are enabled for the tenant, prov
 
 Completed an interactive sign-in as Lab User 01, registered Microsoft Authenticator when prompted, and verified the successful multifactor authentication event in Microsoft Entra sign-in logs. The event showed that the MFA requirement was satisfied by an existing claim in the authentication token.
 
+
+
+\### Application Access
+
+
+
+Added the Microsoft Entra SAML Toolkit enterprise application and directly assigned Lab User 01 with application access. Group-based application assignment was unavailable under the Microsoft Entra ID Free tier, so direct user assignment was used. Verified the assignment from the user perspective by confirming the application appeared in the Lab User 01 My Apps portal.
+
