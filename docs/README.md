@@ -48,3 +48,11 @@ Verified that Lab User 01 appears as an assigned member of SG-IAM-Lab-Users in M
 
 Verified that Microsoft Entra Security Defaults are enabled for the tenant, providing baseline identity protections while the homelab uses the Microsoft Entra ID Free tier.
 
+
+
+\### Authentication Test
+
+
+
+Completed an interactive sign-in as Lab User 01, registered Microsoft Authenticator when prompted, and verified the successful multifactor authentication event in Microsoft Entra sign-in logs. The event showed that the MFA requirement was satisfied by an existing claim in the authentication token.
+
